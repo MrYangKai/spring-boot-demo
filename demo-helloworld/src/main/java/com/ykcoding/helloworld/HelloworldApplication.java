@@ -14,10 +14,10 @@ import org.springframework.web.bind.annotation.RestController;
  */
 @RestController
 @SpringBootApplication
-public class SpringBootDemoHelloworldApplication {
+public class HelloworldApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(SpringBootDemoHelloworldApplication.class, args);
+        SpringApplication.run(HelloworldApplication.class, args);
     }
 
     /**

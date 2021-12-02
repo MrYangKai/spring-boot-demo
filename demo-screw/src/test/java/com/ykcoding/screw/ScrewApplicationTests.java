@@ -36,11 +36,11 @@ public class ScrewApplicationTests {
                 .produceType(EngineTemplateType.freemarker).build();
         // 生成文档配置（包含以下自定义版本号、描述等配置连接）
         Configuration config = Configuration.builder()
-                .version("1.0.0")
+                .version("2.0.0")
                 .description("向阳科技")
                 .dataSource(dataSourceMysql)
                 .engineConfig(engineConfig)
-                .produceConfig(getProcessConfig())
+//                .produceConfig(getProcessConfig())
                 .build();
         // 执行生成
         new DocumentationExecute(config).execute();
