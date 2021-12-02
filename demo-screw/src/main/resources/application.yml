@@ -1,0 +1,12 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /demo
+
+spring:
+  #数据库连接配置
+  datasource:
+    driverClassName: org.mariadb.jdbc.Driver
+    url: jdbc:mariadb://127.0.0.1:3306/nem-omni?rewriteBatchedStatements=true&allowMultiQueries=true&autoReconnect=true&useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai
+    username: root
+    password: 123456
